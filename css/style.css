@@ -401,3 +401,28 @@ html,body
     color:white;
     margin-top: 20px;
 }
+
+/*color option*/
+
+#options
+{
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    z-index: 5456;
+}
+#options ul li
+{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+.color-options
+{
+    background-color: #ccc;
+    border: solid 2px teal;
+    padding: 10px;
+    float: left;
+}
